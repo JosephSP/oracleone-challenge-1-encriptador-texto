@@ -3,7 +3,7 @@
 
 
 ### Layout visual:
-![Como deberia verse el proyecto final](image.png)
+![Como deberia verse el proyecto final](.\imagenes\mockup.png)
 
 Se deja proyecto en figma para orientar el desarrollo del proyecto, el diseño debe tener este layout general pero se deja abierto a la imaginacion el diseño final
 
