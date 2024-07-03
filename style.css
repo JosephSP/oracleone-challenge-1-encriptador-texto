@@ -1,0 +1,42 @@
+:root {
+    --BGColor: #D8DFE8;
+    --StrongColor: #0A3871;
+    --OffSetColor: #9B9797;
+    --DefaultLight: #E8E8E8;
+    --DefaultDark: #000000;
+}
+
+body {
+    background-color: var(--BGColor);
+}
+
+.contenedorInteractuable {
+    display: flex;
+
+}
+
+.ContenedoringresoTexto{
+    padding-left: 17vw;
+}
+
+.logo{
+    size: 120px 48px;
+    margin-top: 4vh;
+    margin-left: 6vw;
+}
+
+.ingresoTexto {
+
+
+}
+
+.botonesIngresoTexto{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+button {
+    width: 23vw;
+    height: 7vh;
+}

@@ -5,5 +5,5 @@ Este proyecto se desarrolla como requerimiento de aprobacion en la primera fase 
 Es basicamente un encriptador de texto que modifica el texto ingresado segun el codigo de encriptado solicitado en el ejercicio y detallado en log.md, realizado segun requisitos de diseño de figma y funcionalidades especificadas por nuestros tutores.
 
 <h4 align="center">
-:construction: Proyecto en construcción :construction:
+:construction: Proyecto en construcción Alpha v0.1:construction:
 </h4>

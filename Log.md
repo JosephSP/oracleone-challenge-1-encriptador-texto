@@ -28,8 +28,11 @@ La letra "u" es convertida para "ufat"
 
 
 
-## V 0.1 Creacion de maqueta basica en HTML 7-03-24
+## V Alpha 0.1 Creacion de maqueta basica en HTML 7-03-24
 
-Se crean los 3 archivos principales que se utilizaran en el desarrollo de la aplicacion, asi como el readme y la carpeta contenedora de imagenes para el logo y las decoraciones externas.
+Se crean los 3 archivos principales que se utilizaran en el desarrollo de la aplicacion, asi como el readme y la carpeta contenedora de imagenes para el logo y las decoraciones externas y se sube contenido a repositorio de github.
+[Repositorio proyecto](https://github.com/JosephSP/oracleone-challenge-1-encriptador-texto)
 
-Se crea la maqueta basica en index HTML
+1. Se crea la maqueta basica en index HTML con todas las features descritas en el programa
+2. Se comienza a estilizar la pagina web segun requisitos del programa y maqueta figma
+        - Se estiliza parcialmente solamente para modo escritorio, con sistema adaptable segun tamaño de pantalla
