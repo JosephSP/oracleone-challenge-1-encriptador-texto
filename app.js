@@ -1,10 +1,10 @@
 function encriptar(){
     console.log("encriptar")
-    const txtencriptar = document.getElementById('IDIngresoTexto').value;
-    let regex = /^(\s*[a-z]\s*)+$/;
+    let txtencriptar = document.getElementById('IDIngresoTexto').value;
+    let regex = /^(\s*[a-z]\s*)+$/m;
     if (txtencriptar == "" || !regex.test(txtencriptar)){
         document.getElementsByClassName('resultadoConRespuesta')[0].style.display = "none";
-        document.getElementsByClassName('ResultadoSinRespuesta')[0].style.display = "block";
+        document.getElementsByClassName('resultadoSinRespuesta')[0].style.display = "block";
         return;
     }
 
@@ -45,39 +45,70 @@ function encriptar(){
 
 function desencriptar(){
     console.log("desencriptar");
-    const txtdesencriptar = document.getElementById('IDIngresoTexto').value;
-    let regex = /^(\s*[a-z]\s*)+$/;
+    let txtdesencriptar = document.getElementById('IDIngresoTexto').value;
+    let regex = /^(\s*[a-z]\s*)+$/m;
     if (txtdesencriptar == "" || !regex.test(txtdesencriptar)){
         document.getElementsByClassName('resultadoConRespuesta')[0].style.display = "none";
-        document.getElementsByClassName('ResultadoSinRespuesta')[0].style.display = "block";
+        document.getElementsByClassName('resultadoSinRespuesta')[0].style.display = "block";
         return;
     }
 
     regex = /^[^eiaou]+$/;
     let txtdesencriptado = "";
     let letra = '';
-    for (Nletra in txtdesencriptar){
+    for (let Nletra = 0; Nletra < txtdesencriptar.length; Nletra++){
         letra = txtdesencriptar[Nletra];
-        // console.log(letra);
         if (regex.test(letra)){
+            console.log(letra);
             txtdesencriptado += letra;
             continue;
         }
         switch (letra){
             case 'e':
-                txtdesencriptado += "enter";
+                if ( txtdesencriptar[Nletra + 1] === 'n' && txtdesencriptar[Nletra + 2] === 't' && 
+                    txtdesencriptar[Nletra + 3] === 'e' && txtdesencriptar[Nletra + 4] === 'r'){
+                        txtdesencriptado += "e";
+                        Nletra +=4;
+                        break;
+                    }
+                txtdesencriptado += "e";
                 break;
             case 'i':
-                txtdesencriptado += "imes";
+                if ( txtdesencriptar[Nletra + 1] === 'm' && txtdesencriptar[Nletra + 2] === 'e' && 
+                    txtdesencriptar[Nletra + 3] === 's'){
+                        txtdesencriptado += "i";
+                        Nletra +=3;
+                        break;
+                    }
+                txtdesencriptado += "i";
                 break;
             case 'a':
-                txtdesencriptado += "ai";
+                
+                if ( txtdesencriptar[Nletra + 1] === 'i'){
+                        console.log(letra);
+                        txtdesencriptado += "a";
+                        Nletra += 1;
+                        break;
+                    }
+                txtdesencriptado += "a";
                 break;
             case 'o':
-                txtdesencriptado += "ober";
+                if ( txtdesencriptar[Nletra + 1] === 'b' && txtdesencriptar[Nletra + 2] === 'e' && 
+                    txtdesencriptar[Nletra + 3] === 'r'){
+                        txtdesencriptado += "o";
+                        Nletra +=3;
+                        break;
+                    }
+                txtdesencriptado += "o";
                 break;
             case 'u':
-                txtdesencriptado += "ufat";
+                if ( txtdesencriptar[Nletra + 1] === 'f' && txtdesencriptar[Nletra + 2] === 'a' && 
+                    txtdesencriptar[Nletra + 3] === 't'){
+                        txtdesencriptado += "u";
+                        Nletra += 3;
+                        break;
+                    }
+                txtdesencriptado += "u";
                 break;
         }
     }
