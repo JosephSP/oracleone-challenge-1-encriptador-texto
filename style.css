@@ -9,7 +9,7 @@
 
 body {
     background-color: var(--BGColor);
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .contenedorInteractuable {
@@ -22,7 +22,7 @@ body {
     
 }
 
-.ContenedoringresoTexto{
+.contenedoringresoTexto{
    padding-left: 7rem;
    height: 65vh;
 }
@@ -133,3 +133,41 @@ button:hover {
     text-align: center;
 
 }
+
+
+@media screen and (max-width: 768px) {
+    .contenedorInteractuable{
+        flex-direction: column;
+    }
+    .contenedoringresoTexto {
+        padding-left: 2rem;
+        margin-top: 2rem;
+        width: auto;
+    }
+    button {
+        width: 40vw;
+    }
+
+    .bottonCopiar{
+        width: 80vw;
+    }
+    .imagenEspera{
+        display: none;
+    }
+
+    .contenedorResultado{
+        width: auto;
+    }
+
+  }
+  
+  @media screen and (max-width: 375px) {
+    .botonesIngresoTexto{
+        display: flex;
+        flex-direction: column;
+
+    }
+    button {
+        width: 80vw;
+    }
+  }

@@ -6,7 +6,7 @@ function encriptar(){
         document.getElementsByClassName('resultadoConRespuesta')[0].style.display = "none";
         document.getElementsByClassName('resultadoSinRespuesta')[0].style.display = "block";
         return;
-    }
+    } 
 
     regex = /^[^eiaou]+$/;
     let txtencriptado = ""
