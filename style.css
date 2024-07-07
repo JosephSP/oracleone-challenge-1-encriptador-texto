@@ -1,3 +1,13 @@
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+
 :root {
     --BGColor: #F3F5FC;
     --StrongColor: #0A3871;
@@ -9,6 +19,10 @@
 
 body {
     background-color: var(--BGColor);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     /* height: 100vh; */
 }
 
@@ -58,6 +72,7 @@ textarea {
 
 .ingresoTexto {
     background-color: transparent;
+    color: var(--StrongColor);
 
 }
 

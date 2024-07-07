@@ -43,3 +43,11 @@ Se crean los 3 archivos principales que se utilizaran en el desarrollo de la apl
 Se edita estilo mas acorde al requisito y se hace mas reactivo y adaptable al tamaño de pantalla.
 
 Se debe arreglar footer que se sobre pone con botones y se debe agregar funcionalidades a la APP, ademas se debe agregar retrocompatibilidad con pantallas mobiles.
+
+## V Beta 1.0 Proyecto cumple con requisitos bases 07-07-24
+
+Luego de completar las funcionalidades y las visuales de la pagina, se da por concluido la fase de desarrollo, entrando en la etapa de pruebas, ademas se enviara el proyecto al interesado para que lo evalue si cumple con sus requerimientos.
+
+- se crea y finaliza 3 funciones activables con boton en APP.JS
+- se modifica style.css para tener mayor reactividad de la pagina
+- se corrigen errores menores de tipeo y nombramiento de clases.
