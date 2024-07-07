@@ -15,15 +15,15 @@
             </div>
             <div class="ContenedoringresoTexto">
 
-                <textarea id="IDIngresoTexto" name="IngresoTexto"
+                <textarea id="IDIngresoTexto" name="ingresoTexto" class="ingresoTexto"
                 placeholder="ingrese el texto aqui"></textarea>
-                <p class="TextoAyuda"><img src=".\imagenes\exclamacionicon.png" alt="Exclamacion" class="Exclamacion"> Solo letras minúsculas y sin acentos</p>
+                <p class="textoAyuda"><img src=".\imagenes\exclamacionicon.png" alt="Exclamacion" class="exclamacion"> Solo letras minúsculas y sin acentos</p>
 
                 <div class="botonesIngresoTexto">
-                    <button type="button" class="BotonEncriptar">
+                    <button type="button" class="botonEncriptar" onclick="encriptar()">
                         Encriptar
                     </button>
-                    <button type="button" class="BotonDesencriptar">
+                    <button type="button" class="botonDesencriptar" onclick="desencriptar()">
                         Desencriptar
                     </button>
                 </div>
@@ -33,12 +33,12 @@
             <div class="ResultadoSinRespuesta">
                 <img src=".\imagenes\chico-con-lupa.png" alt="imagen de persona con lupa" class="imagenEspera">
                 <p class="textoMsjNoEncontrado">Ningún mensaje fue encontrado</p>
-                <p class="TextoAyudaResultado">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <p class="textoAyudaResultado">Ingresa el texto que desees encriptar o desencriptar.</p>
             </div>
-            <div class="ResultadoConRespuesta" >
-                <textarea id="IDTxtResultado" name="TxtResultado"
+            <div class="resultadoConRespuesta" >
+                <textarea id="IDtxtResultado" name="txtResultado" class="txtResultado"
                 placeholder="ingrese el texto aqui" readonly></textarea>
-                <button type="button" class="BottonCopiar">Copiar</button>
+                <button type="button" class="BottonCopiar" onclick="copiarResultado()">Copiar</button>
             </div>
         </div>
     </div>
