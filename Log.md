@@ -36,3 +36,10 @@ Se crean los 3 archivos principales que se utilizaran en el desarrollo de la apl
 1. Se crea la maqueta basica en index HTML con todas las features descritas en el programa
 2. Se comienza a estilizar la pagina web segun requisitos del programa y maqueta figma
         - Se estiliza parcialmente solamente para modo escritorio, con sistema adaptable segun tamaño de pantalla
+
+
+## V Alpha 0.2 Maqueteado CSS 7-04-24
+
+Se edita estilo mas acorde al requisito y se hace mas reactivo y adaptable al tamaño de pantalla.
+
+Se debe arreglar footer que se sobre pone con botones y se debe agregar funcionalidades a la APP, ademas se debe agregar retrocompatibilidad con pantallas mobiles.

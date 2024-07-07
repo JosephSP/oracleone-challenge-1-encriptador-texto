@@ -15,8 +15,8 @@
             </div>
             <div class="ContenedoringresoTexto">
 
-                <input type="text" name="IngresoTexto" id="IDIngresoTexto" placeholder="ingrese el texto aqui" 
-                required class="ingresoTexto" inputmode="full-width-latin">
+                <textarea id="IDIngresoTexto" name="IngresoTexto"
+                placeholder="ingrese el texto aqui"></textarea>
                 <p class="TextoAyuda"><img src=".\imagenes\exclamacionicon.png" alt="Exclamacion" class="Exclamacion"> Solo letras minúsculas y sin acentos</p>
 
                 <div class="botonesIngresoTexto">
@@ -36,15 +36,16 @@
                 <p class="TextoAyudaResultado">Ingresa el texto que desees encriptar o desencriptar.</p>
             </div>
             <div class="ResultadoConRespuesta" >
-                <input type="text" name="" id="">
+                <textarea id="IDTxtResultado" name="TxtResultado"
+                placeholder="ingrese el texto aqui" readonly></textarea>
                 <button type="button" class="BottonCopiar">Copiar</button>
             </div>
         </div>
     </div>
-    
-    <footer>
+    <div class="footer">
         <p>Author: Jose Suarez<br>
         <a href="https://github.com/JosephSP/oracleone-challenge-1-encriptador-texto">github de esta pagina</a></p>
-    </footer>
+    </div>
+    
 </body>
 </html>
