@@ -105,6 +105,7 @@ button:hover {
 .contenedorResultado{
     background-color: white;
     padding: 2rem;
+
 }
 
 .textoMsjNoEncontrado{
@@ -117,6 +118,8 @@ button:hover {
 
 .resultadoConRespuesta {
     display: none;
+    height: 80%;
+
 }
 
 .txtResultado{
